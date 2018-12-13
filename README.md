@@ -1,0 +1,1 @@
+Simple vanilla Javascript development environment with usage example of babel, webpack, webpack-middleware to provide mock services, sass

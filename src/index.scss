@@ -1,0 +1,78 @@
+/*  some css normalizer could be added to reset default styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    background-size: 24px 24px;
+    background-image: linear-gradient(to right, rgba(44, 44, 44, .07) 1px, transparent 1px), linear-gradient(to bottom, rgba(44, 44, 44, .07) 1px, transparent 1px);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(transparent, #fff 80%);
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+}
+
+.width-max {
+    min-width: 600px;
+    max-width: 1640px;
+    margin: auto;
+    padding: 20px;
+}
+
+.app-main {
+    .code-section {
+        background: #f7f7f9;
+        border: 1px solid #dcdcdc;
+        border-radius: 7px;
+        margin: 15px 0px;
+    }
+    .code-section>pre {
+        background: transparent;
+    }
+    .api-header {
+        display: flex;
+        align-items: center;
+    }
+    .format-picker {
+        margin-left: auto;
+    }
+}
+
+.top-bar {
+    height: 80px;
+    background: #2c2c2c;
+    border-top: 7px solid #a40900;
+    box-sizing: border-box;
+    .header-title {
+        font-size: 26px;
+        color: #777;
+    }
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url('./fonts/Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url('./fonts/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url('./fonts/Lato-Bold.ttf') format('truetype');
+}
